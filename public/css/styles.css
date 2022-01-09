@@ -69,6 +69,47 @@ p {
     margin-right: auto;
 }
 
+.card form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card input[type=text] {
+    width: 60%;
+    margin-left: 15px;
+    background-color: #2f363d;
+    border: 1px solid #0c1117;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.card input[type=button] {
+    padding: 5px;
+    background-color: #2f363d;
+    border: 1px solid #0c1117;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.card a {
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 16pt;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
 .card ul {
     padding-left: 1.75cm;
 }
@@ -117,9 +158,7 @@ p {
     background-color: #0c1117;
     border-top: 2px solid #2f363d;
     border-bottom: 2px solid #2f363d;
-    clear: both;
     color: white;
-    padding: 5px;
 }
 
 #redirectMessage {
