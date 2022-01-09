@@ -161,6 +161,11 @@ p {
     color: white;
 }
 
+#footer span {
+    padding: 5px;
+    display: block;
+}
+
 #redirectMessage {
     font-size: 14pt;
 }
