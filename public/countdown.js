@@ -1,7 +1,7 @@
 function redirect(url) {
     var timeOut = 2;
     var timer = setInterval(() => {
-        if( --timeOut == -1 ) {
+        if( --timeOut <= -1 ) {
             clearInterval(timer);
             window.location.replace(url);
         } else {
