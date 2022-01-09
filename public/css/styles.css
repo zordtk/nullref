@@ -35,6 +35,7 @@ p {
     font-size: 24pt;
     color: #fff;
     padding: 5px;
+    cursor: default;
 }
 
 #content {
