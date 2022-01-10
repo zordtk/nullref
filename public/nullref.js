@@ -1,5 +1,5 @@
 function redirect(url) {
-    var timeOut = 2;
+    var timeOut = 5;
     var timer = setInterval(() => {
         if( --timeOut <= -1 ) {
             clearInterval(timer);
